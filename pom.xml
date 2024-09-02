@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>in.mshitlearner</groupId>
+	<artifactId>springboot_kafka_utils</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>springboot_kafka_utils</name>
+	<description>Spring Boot Kafka Utils</description>
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<version>1.18.34</version>
+	</dependency>
+	</dependencies>
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.10.1</version> <!-- Ensure you're using a recent version -->
+            <configuration>
+                <source>17</source> <!-- Set this to 7, 8, 11, or later based on your requirements -->
+                <target>17</target> <!-- Ensure target matches the source version -->
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+	
+	
+</project>
